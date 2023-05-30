@@ -1,0 +1,338 @@
+* {margin:0;padding:0;} 
+
+body {
+    background-color: hsla(192, 16%, 94%, 0.963);
+    text-align: center;
+    font: 1vw sans-serif;
+    font-style: italic;
+    color: #606060;
+}
+
+#background {
+    height: auto;
+    width: 80vw;
+    opacity: 0.4;
+}
+
+h1, h2, h3  {
+    font-style: normal;
+    color: #0844a4;
+}
+
+h1, h2 {
+    letter-spacing: 0.5vw;
+}
+
+.buttontotop {
+    position: sticky;
+    text-align: end;
+    bottom: 0;
+    margin-right: -7vw;
+    font-size: 2vw;
+}
+
+.page {
+    min-height: 100vh;
+}
+
+.all {
+    background-color: white;
+    width: 80vw;
+    margin: auto;
+}
+
+.imgblock {
+    position: relative;
+    display: inline-block;
+}
+
+.imgblock div {
+    position: absolute;
+    top: 15vw;
+    left: 14vw;
+    border: 0.2vw solid #0844a4;
+    padding: 1vw;
+}
+
+.imgblock h1 {
+    font: 4vw sans-serif;
+    font-weight: 600;
+    margin: 2vw 2vw;
+}
+
+.imgblock button {
+    background-color: #0a5de4;
+    height: 4vw;
+    width: 14vw;
+    border: 0.1vw solid black;
+    margin-bottom: 2vw;
+    letter-spacing: 0.25vw;
+    font-size: 2vw;
+    /* text-decoration: underline; */
+}
+
+.imgblock a {
+color: white;
+text-decoration: none;
+}
+
+.vrapperabout {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    margin-top: 4vw;
+}
+
+.vrapperabout img {
+    width: 200px;
+    margin-left: 3vw;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 800;
+    font-style: normal;
+    color: #0844a4;
+    margin-bottom: 4vw;
+    padding-top: 2vw;
+}
+
+.nav p:nth-child(odd) {
+    width: 10vw;
+}
+
+.nav p:nth-child(even) {
+    opacity: 0.4;
+    font-weight: 900;
+}
+
+.accept {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#aboutflex {
+    width: 40vw;
+    padding-left: 6vw;
+
+}
+
+.accept img {
+    height: 3vw;
+    width: 3vw;
+    margin-top: -0.8vw;
+    opacity: 0.4;
+}
+
+.accept h3, .accept p {
+    display: flex;
+    justify-content: space-evenly;
+    width: 16.5vw;    
+}
+
+
+        .seksh p {
+            display: inline-block;
+            padding: 0.1vw;
+            background: linear-gradient(black 50%, var(--rad-bg-color) 50%);
+            background-position: center;
+            background-repeat: no-repeat;
+            position: absolute;
+            height: 17.9vw;
+            padding: auto;
+        }
+
+        #rad1 {
+            transform: rotate(30deg);
+            --rad-bg-color: rgb(38, 230, 51);
+        }
+
+        #rad2 {
+            transform: rotate(280deg);
+            --rad-bg-color: rgb(242, 6, 6);
+        }
+
+        #rad3 {
+            transform: rotate(150deg);
+            --rad-bg-color: rgb(21, 21, 239);
+        }
+
+        #rad4 {
+            transform: rotate(185deg);
+            --rad-bg-color: rgb(21, 21, 239);
+        }
+
+
+
+        .circle {
+            background: conic-gradient(from 30deg, rgb(242, 6, 6) 120deg, rgb(247, 178, 49) 120deg 155deg, rgb(38, 230, 51) 155deg 250deg, rgb(21, 21, 239) 250deg);
+            border: 0.2vw solid black;
+            border-radius: 50%;
+            height: 18vw;
+            width: 18vw;
+            margin-top: 8vw;
+            text-align: center;
+        }
+
+        .incircle {
+            background-color: white;
+            border: 0.2vw solid black;
+            border-radius: 50%;
+            height: 9vw;
+            width: 9vw;
+            margin: 4.5vw;
+            position: absolute;
+        }
+
+.buttoncircle>p {
+    border: 0.2vw solid black;
+    border-radius: 100vw;
+    height: 1.5vw;
+    width: 4.5vw;
+    text-align: center;
+    padding: 0.5vw 0 0;
+    font: 1.2vw Helvetica;
+    font-weight: bold;
+    margin: 1vw;
+}
+
+.buttoncircle {
+    display: flex;
+    margin-top: 1.5vw;
+}
+
+.forcircle {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.buttoncircle p:nth-child(1) {
+    background-color: rgb(21, 21, 239);
+}
+
+.buttoncircle p:nth-child(2) {
+    background-color: rgb(242, 6, 6);
+}
+
+.buttoncircle p:nth-child(3) {
+    background-color: rgb(247, 178, 49);
+}
+
+.buttoncircle p:nth-child(4) {
+    background-color: rgb(38, 230, 51);
+}
+
+h2 {
+    font: 3vw sans-serif;
+    font-weight: 600;
+}
+
+#buttoninterest h2 {
+    padding-top: 2vw;
+}
+
+.wrapperexperience {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 2vw;
+}
+
+.experience {
+    border: 0.2vw solid rgba(128, 128, 128, 0.4);
+    height: 16vw;
+    margin: 12vw 2vw 0;
+    padding: 2vw 1vw 0;
+}
+
+.interest {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 3vw;
+}
+
+.interest img {
+    width: 22vw;
+}
+
+.interest p {
+    width: 35vw;
+    padding: 1.5vw;
+}
+
+#buttonget {
+    margin: 2vw;
+}
+
+.get {
+    display: flex;
+    flex-wrap: wrap;
+    width: 51vw;
+    margin-left: 14vw;
+    padding-top: 3vw;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60vw;
+    justify-content: space-between;
+    padding-top: 2vw;
+}
+
+form input:nth-of-type(1) {
+    height: 2.6vw;
+    width: 50vw;
+    padding-bottom: 7vw;
+}
+
+form input, form button {
+    border: 0.2vw solid #0844a4;
+    height: 2.75vw;
+    width: 16vw;
+    font-size: 1.5vw;
+    margin-bottom: 1vw;    
+}
+
+form input {
+    padding-left: 1vw;
+}
+
+form button {
+    background-color: #0844a4; 
+    color: white;
+    height: 3.15vw;
+}
+
+input:invalid:not(:placeholder-shown) {
+    border-color: #ff0000;
+}
+
+input:valid:not(:placeholder-shown) {
+    border-color: #06ef06;
+}
+
+#touch {
+    margin-top: 4vw;
+}
+
+#footer {
+    width: 30vw;
+    opacity: 0.4;
+    margin: 3vw 23vw;
+}
+
+footer p{
+    padding: 0.5vw;
+}
+
+#inst {
+    height: 4.5vw;
+    margin: 1vw 0 0 -3vw;
+}
+
+#fac {
+    height: 2.5vw;
+    margin: 0 0 1.7vw 5vw;
+}

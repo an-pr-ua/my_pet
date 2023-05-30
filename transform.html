@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin:0;padding:0;}
+        .seksh p {
+            display: inline-block;
+            padding: 0.1vw;
+            background: linear-gradient(black 50%, var(--rad-bg-color) 50%);
+            background-position: center;
+            background-repeat: no-repeat;
+            position: absolute;
+            height: 18vw;
+            padding: auto;
+        }
+
+        #rad1 {
+            transform: rotate(30deg);
+            --rad-bg-color: rgb(38, 230, 51);
+        }
+
+        #rad2 {
+            transform: rotate(280deg);
+            --rad-bg-color: rgb(242, 6, 6);
+        }
+
+        #rad3 {
+            transform: rotate(150deg);
+            --rad-bg-color: rgb(21, 21, 239);
+        }
+
+        #rad4 {
+            transform: rotate(185deg);
+            --rad-bg-color: rgb(21, 21, 239);
+        }
+
+
+
+        .circle {
+            background: conic-gradient(from 30deg, rgb(242, 6, 6) 120deg, rgb(247, 178, 49) 120deg 155deg, rgb(38, 230, 51) 155deg 250deg, rgb(21, 21, 239) 250deg);
+            border: 0.2vw solid black;
+            border-radius: 50%;
+            height: 18vw;
+            width: 18vw;
+            margin-top: 8vw;
+            text-align: center;
+        }
+
+        .incircle {
+            background-color: white;
+            border: 0.2vw solid black;
+            border-radius: 50%;
+            height: 9vw;
+            width: 9vw;
+            margin: 4.5vw;
+            position: absolute;
+        }
+
+        
+    </style>
+</head>
+
+<body>
+
+    <div class="circle">
+        <div class="seksh">
+            <p id="rad1"></p>
+            <p id="rad2"></p>
+            <p id="rad3"></p>
+            <p id="rad4"></p>
+        </div>
+        <div class="incircle"></div>
+    </div>
+
+</body>
+
+</html>
