@@ -32,7 +32,7 @@ h1, h2 {
 }
 
 .page {
-    min-height: 100vh;
+    min-height: 47vw;
 }
 
 .all {
@@ -64,7 +64,7 @@ h1, h2 {
     background-color: #0a5de4;
     height: 4vw;
     width: 14vw;
-    border: 0.1vw solid black;
+    border: 0.1vw solid #0a5de4;
     margin-bottom: 2vw;
     letter-spacing: 0.25vw;
     font-size: 2vw;
@@ -83,7 +83,7 @@ text-decoration: none;
 }
 
 .vrapperabout img {
-    width: 200px;
+    width: 15vw;
     margin-left: 3vw;
 }
 
